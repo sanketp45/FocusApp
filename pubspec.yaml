@@ -1,0 +1,24 @@
+name: focus_app
+description: Flutter onboarding flow for Focus App using Mango Grotesque and black theme.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+  fonts:
+    - family: MangoGrotesque
+      fonts:
+        - asset: assets/fonts/MangoGrotesque-Regular.ttf
